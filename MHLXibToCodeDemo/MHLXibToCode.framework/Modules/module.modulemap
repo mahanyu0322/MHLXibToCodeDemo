@@ -1,0 +1,6 @@
+framework module MHLXibToCode {
+  umbrella header "MHLXibToCode.h"
+
+  export *
+  module * { export * }
+}
