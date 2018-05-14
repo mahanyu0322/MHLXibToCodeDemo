@@ -11,7 +11,9 @@
 @implementation TastTableViewCell
 
 - (void)awakeFromNib {
-     [CodeGenerationEntry codeGenerationEntryfromCell:self.contentView];
+    
+    [CodeGenerationEntry codeGenerationEntryfromCell:self.contentView];
+   
     [super awakeFromNib];
     
 }
